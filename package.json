@@ -1,0 +1,28 @@
+{
+  "name": "vr-management-system",
+  "version": "1.0.0",
+  "description": "VR项目分发统计系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000"
+  },
+  "dependencies": {
+    "vue": "^3.4.29",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "axios": "^1.6.8",
+    "element-plus": "^2.7.6",
+    "@element-plus/icons-vue": "^2.3.1",
+    "echarts": "^5.5.0",
+    "vue-echarts": "^6.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.10",
+    "vue-tsc": "^2.0.19",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
